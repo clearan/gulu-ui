@@ -24,34 +24,11 @@
             --border-color-hover: #666;
         }
     </style>
-    <style>
-        .g-button {
-            font-size: var(--font-size);
-            height: var(--button-height);
-            padding: 0 1em;
-            border-radius: var(--border-radius);
-            border: 1px solid var(--border-color);
-            background: var(--button-bg);
-        }
-        .g-button:hover {
-            border-color: var(--border-color-hover)
-        }
-        .g-button:hover {
-            background-color: var(--button-active-bg)
-        }
-    </style>
 </head>
 <body>
 <div id="app">
     <g-button>提交</g-button>
 </div>
-<script src="./node_modules/vue/dist/vue.min.js"></script>
-<script src="button.js"></script>
-<script>
-    new Vue({
-        el: '#app',
-        data: {}
-    })
-</script>
+<script src="./src/app.js"></script>
 </body>
 </html>
