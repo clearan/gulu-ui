@@ -33,13 +33,13 @@
 </head>
 <body>
 <div id="app">
-    <g-button icon="settings" icon-position="right">
+    <g-button :loading="loading1" @click="loading1=!loading1">
         提交
     </g-button>
-    <g-button icon="settings" icon-position="up">
+    <g-button icon="settings" icon-position="up" :loading="loading2" @click="loading2=!loading2">
         提交
     </g-button>
-    <g-button icon="settings">
+    <g-button icon="settings" :loading="loading3"  @click="loading3=!loading3">
         提交
     </g-button>
     <g-icon name="download"></g-icon>
