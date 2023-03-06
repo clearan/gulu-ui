@@ -24,6 +24,9 @@ export default {
       default: false
     }
   },
+  created() {
+    console.log(1);
+  }
 }
 </script>
 
